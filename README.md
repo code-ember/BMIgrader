@@ -8,15 +8,15 @@ First, you'll obtain user input for their preferred BMI system, either imperial 
 ## Goal
 Develop a user-friendly application that calculates and categorizes BMI based on user input for weight, height, and preferred measurement system.
 
-## Before begining
+## Before Begining
 You have received partial source code in BMICalculator.java, UserInput.java, and Main.java.
 
 The *UserInput.java* class has the following methods already implemented for you: 
 
-## - obtainBMISystem:
+## obtainBMISystem:
 Contains a *Scanner* that captures user input for the preferred BMI system, validates the user input, and returns it.
 
-## - obtainWeight:
+## obtainWeight:
 Uses a *Scanner* to capture user input for weight in pounds or kilograms based on the entered BMI system. It also features a *switch* statement that determines whether the weight should be obtained in pounds or kilograms based on the BMI system. Additionally, it includes a while loop that controls obtaining user input for weight until a valid value is entered.
 
 The *Main.java* class has the following already implemented for you: 
